@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Typewriter from "typewriter-effect";
 
 const About = () => {
   return (
@@ -9,6 +10,19 @@ const About = () => {
       </Head>
       <div>
         <h1>About Me</h1>
+        <Typewriter
+          onInit={(typewriter) => {
+            typewriter
+              .typeString("My name is Timothy Lim and I like to code!")
+              .pauseFor(1000)
+              .deleteChars(8)
+              .typeString("Software Engineering!")
+              .pauseFor(1000)
+              .deleteChars(21)
+              .typeString("Bak Kut Teh!")
+              .start();
+          }}
+        />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum odio
           consequatur nihil neque quam, at suscipit libero vero commodi nisi
