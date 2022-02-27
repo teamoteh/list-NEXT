@@ -1,0 +1,13 @@
+.image {
+    border: 40px solid #ddd;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+.typewrite {
+    font-size: 45px;
+}
+
+.para {
+    font-weight: lighter;
+}
