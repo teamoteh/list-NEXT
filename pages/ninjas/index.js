@@ -1,5 +1,7 @@
 import Link from "next/link";
 import styles from "../../styles/Ninjas.module.css";
+import blogPostWithImage from "./blogCard";
+import React from 'react';
 
 export const getStaticProps = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
@@ -14,6 +16,9 @@ const Ninjas = ({ ninjas }) => {
   return (
     <div>
       <h1>Projects</h1>
+      <div>
+      blogPostWithImage()
+    </div>
       {ninjas.map((ninja) => (
         <Link href={"/ninjas/" + ninja.id} key={ninja.id}>
           <a className={styles.single}>
@@ -22,6 +27,7 @@ const Ninjas = ({ ninjas }) => {
         </Link>
       ))}
     </div>
+    
   );
 };
 
