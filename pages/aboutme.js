@@ -48,10 +48,10 @@ const About = () => {
         <p className={styles.para}>
           I am currently a Year 2 student in Nanyang Technological University
           and pursuing a bachelor in Computer Science. As a driven individual, I
-          take it into my stride to pursue knowledge in areas that aren't
+          take it into my stride to pursue knowledge in areas that aren&apos;t
           covered in my school. I am open to opportunities that allow me to
           expand my horizons and provide me with new experiences to enjoy and
-          environments for me to learn and grow. Let's connect!
+          environments for me to learn and grow. Let&apos;s connect!
         </p>
       </div>
       <div>
@@ -71,9 +71,9 @@ const About = () => {
       <div>
         <h2 className={styles.h2}>clubs & societies</h2>
         <ul>
-          <li>A' Division Saint Angrew's Rugby Team </li>
-          <li> President of NTU Touch Rugby Men's</li>
-          <li>Captain of Hall's Touch Rugby</li>
+          <li>A&apos; Division Saint Angrew&apos;s Rugby Team </li>
+          <li> President of NTU Touch Rugby Men&apos;s</li>
+          <li>Captain of Hall&apos;s Touch Rugby</li>
         </ul>
       </div>
       <hr />
