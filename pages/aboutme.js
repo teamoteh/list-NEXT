@@ -2,7 +2,6 @@ import Head from "next/head";
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
 import styles from "../styles/h1.module.css";
-import PostImage from "./Picture";
 
 const About = () => {
   return (
